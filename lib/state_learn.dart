@@ -29,7 +29,7 @@ class _StatelessLearnState extends State<StatelessLearn> {
                 setState(() {
                   _counter++;
                 });
-                print("Sayaç Değeri :  $_counter");
+                print("Sayaç Değer :  $_counter");
               },
               child: const Text("Artırmak için basın!!"),
             )
