@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_series/state_learn.dart';
+import 'package:flutter_series/state/state_learn.dart';
+import '101/scaffold_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
-      home: StatelessLearn(),
+      home: ScaffoldLearn(),
     );
   }
 }
