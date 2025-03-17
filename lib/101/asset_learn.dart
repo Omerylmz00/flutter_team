@@ -8,18 +8,18 @@ class AssetLearn extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Assets Learn"),
-        backgroundColor: Color.fromRGBO(123, 45, 89, 1),
+        backgroundColor: const Color.fromRGBO(123, 45, 89, 1),
       ),
       body:  Column(
         children:  [
-          Text(
+          const Text(
             "Tüm şehitlerimizin ruhu şad olsun !!!",
             style: TextStyle(
               fontFamily: 'YujiMai',
               fontSize: 20,
             ),
           ),
-          Text(
+          const Text(
               "GDG on Campus Süleyman Demirel Üniversitesi",
               style: TextStyle(
                 fontFamily: 'BebasNeue',
@@ -31,7 +31,7 @@ class AssetLearn extends StatelessWidget {
               height: 100,
               width: 100,
           ),
-          SizedBox(height: 20,),
+          const SizedBox(height: 20,),
           Image.network("https://picsum.photos/200/300"),
         ],
       ),
